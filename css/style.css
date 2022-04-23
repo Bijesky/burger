@@ -13,7 +13,7 @@ body {
 }
 
 .hero {
-    background-image: url(figmaimg/Rectangle\ 1.png);
+    background-image: url(/figmaimg/Rectangle\ 1.png);
     position: relative;
     background-size: cover;
     background-position: center;
@@ -350,7 +350,7 @@ body {
 
 .delivery {
     position: relative;
-    background-image: url(figmaimg/Rectangle\ 10.png);
+    background-image: url(/figmaimg/Rectangle\ 10.png);
     margin-top: 80px;
     height: auto;
 }
@@ -472,7 +472,7 @@ body {
 /* end of testimonial */
 
 .news {
-    background-image: url(figmaimg/linear.png);
+    background-image: url(/figmaimg/linear.png);
     text-align: center;
     padding: 60px 0;
     margin-top: 60px;
