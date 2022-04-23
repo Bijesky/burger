@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&family=Poppins:wght@100;200;300;500;600;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-image: url(/figmaimg/Rectangle\ 1.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    padding: 20px 0px;
+}
+
+.navigation .nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+.navigation .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+}
+.navigation .nav i{
+   display: none;
+}
+
+.navigation .nav {
+    width: 800px;
+}
+
+.navigation .logo img {
+    width: 15%;
+    margin-right: 400px;
+}
+
+.navigation button {
+    background-color: #e7272d;
+    border: none;
+    border-radius: 60px;
+    padding: 12px 10px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.navigation button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cart {
+    position: relative;
+    color: white;
+    font-size: 28px;
+}
+
+.num {
+    position: absolute;
+    color: #e7272d;
+    font-size: 10px;
+    bottom: 20px;
+    right: -8px;
+}
+
+.main .text {
+    color: white;
+}
+
+.main .head h4 {
+    font-size: 24px;
+    color: #e7272d;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.main .head h1 {
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.price {
+    position: relative;
+    background-color: #e7272d;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.list ul li {
+    display: inline;
+    padding: 30px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.cost {
+    margin-right: 10px;
+}
+
+.cost p {
+    font-size: 18px;
+}
+
+.cost h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.icon {
+    font-size: 40px;
+    position: absolute;
+    right: -16px;
+}
+
+.main .imgae {
+    position: relative;
+}
+
+.main .imgae-burger {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.main .imgae-burger img {
+    width: 80%;
+}
+
+.welcome-page {
+    position: relative;
+
+
+}
+
+.wel-text {
+    margin-top: 50px;
+}
+
+.bg {
+    position: absolute;
+    left: -650px;
+}
+
+.wel-image img {
+    width: 80%;
+    margin-left: 160px;
+    margin-top: 100px;
+
+}
+
+.wel-text {
+    margin-left: 60px;
+}
+
+.wel-text h3 {
+    font-family: akadora;
+    font-weight: 400;
+    font-size: 48px;
+    color: #e7272d;
+}
+
+.wel-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+.wel-text p {
+    color: #cccc;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.wel-text a {
+    text-decoration: none;
+    color: white;
+    background-color: #e7272d;
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+
+.content-two {
+    margin-top: 100px;
+}
+
+.special-text {
+    text-align: center;
+}
+
+.special-text h3 {
+    font-family: akadora;
+    font-weight: 400;
+    font-size: 48px;
+    color: #e7272d;
+    margin-bottom: 10px;
+}
+
+.special-text h1 {
+    font-size: 64px;
+
+
+}
+
+.item-one {
+    flex-basis: 20%;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 40px 0px;
+    height: 420px;
+
+}
+
+.item-one h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.burgerimage img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.item-one p {
+    font-size: 14px;
+    color: rgba(158, 158, 158, 0.8);
+    margin-bottom: 20px;
+}
+
+.item-one h2 {
+    color: #e7272d;
+    margin-bottom: 20px;
+}
+
+.item-one a {
+    background-color: white;
+    border: 1px solid rgba(158, 158, 158, 0.8);
+    text-decoration: none;
+    border-radius: 60px;
+    padding: 4px 15px;
+    color: #e7272d;
+    transition: 0.75s;
+}
+
+.item-one:hover {
+    box-shadow: 8px 6px 12px #d1d1d1;
+}
+
+.items {
+    margin-top: 50px;
+}
+
+.ingrident {
+    background-color: #0e0e0e;
+    margin-top: 80px;
+}
+
+.ingrident-image img {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.menu h4 {
+    font-family: akadora;
+    font-weight: 400;
+    font-size: 48px;
+    color: #e7272d;
+}
+
+.menu h2 {
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.menu .menu-bg {
+    position: relative;
+    width: 800px;
+    height: 140px;
+    background: #F5F5F5;
+    margin-left: 330px;
+    box-shadow: 6px 6px 10px rgb(207, 204, 204);
+}
+
+.menu .menu-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.menu .menu-icon img {
+    width: 90%;
+}
+
+.list-head {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.list-one {
+    text-align: left;
+
+}
+
+.list-head h3 {
+    font-size: 22px;
+}
+
+.list-head h4 {
+    font-family: poppins;
+    font-size: 22px;
+}
+
+.list-one p {
+    color: rgb(156, 156, 156);
+}
+
+.delivery {
+    position: relative;
+    background-image: url(/figmaimg/Rectangle\ 10.png);
+    margin-top: 80px;
+    height: auto;
+}
+
+.dimage-one {
+    position: absolute;
+    right: 750px;
+    top: 150px;
+}
+
+.dimage-two {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+.dtext {
+    padding: 120px 0;
+}
+
+.dtext-one h3 {
+    font-family: akadora;
+    font-size: 28px;
+    color: #e7272d;
+    margin-bottom: 20px;
+}
+
+.dtext-one h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.dtext-one p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #e7272d;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    padding: 8px 18px;
+    width: 200px;
+    text-decoration: none;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dtext-two {
+    text-align: right;
+}
+
+.dtext-two h3 {
+    font-family: akadora;
+    font-size: 28px;
+    color: #e7272d;
+    margin-bottom: 20px;
+}
+
+.dtext-two h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.dtext-two p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* end of delivery */
+
+.reviews {
+    text-align: center;
+}
+
+.reviews h3 {
+    font-family: akadora;
+    font-weight: 400;
+    font-size: 48px;
+    color: #e7272d;
+    margin: 60px 0 20px 0;
+}
+
+.reviews h2 {
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.t-image {
+
+    border-bottom: 8px solid #e7272d;
+
+}
+
+.t-reviews {
+    text-align: left;
+    padding: 80px;
+}
+
+.t-reviews p {
+    line-height: 30px;
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding: 80px;
+}
+
+.t-reviews h2 {
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+/* end of testimonial */
+
+.news {
+    background-image: url(/figmaimg/linear.png);
+    text-align: center;
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+.news-header h3 {
+    font-family: akadora;
+    font-size: 48px;
+    color: #e7272d;
+    margin-bottom: 10px;
+}
+
+.news-header h2 {
+    font-weight: 800;
+    font-size: 64px;
+    color: white;
+}
+
+.box {
+    position: relative;
+    background-color: #F5F5F5;
+    height: 370px;
+    width: 350px;
+    border-radius: 6px;
+    margin-top: 80px;
+    text-align: left;
+    padding: 200px 20px 20px 20px;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+}
+
+.box p {
+    color: grey;
+}
+
+.box h3 {
+    color: #e7272d;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.box i {
+    margin-left: 8px;
+    color: #e7272d;
+    cursor: pointer;
+}
+
+.card {
+    position: absolute;
+    top: -40px;
+    left: 25px;
+}
+
+/* end of news */
+.footersection {
+    background-color: #3B3B3B;
+    text-align: center;
+}
+
+.footersection img {
+    padding: 60px 0;
+    width: 60px;
+}
+
+.link {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    border-bottom: 2px solid grey;
+}
+
+.links h2 {
+    font-weight: 400;
+}
+
+.links ul {
+    margin-top: 10px;
+}
+
+.links ul li {
+    list-style: none;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.links ul li a {
+    font-weight: 100;
+}
+
+.f-nav ul li {
+    list-style: none;
+    display: inline;
+    color: white;
+    font-weight: 100;
+
+}
+
+.f-nav ul li a {
+    padding-right: 10px;
+
+}
+
+.f-nav p {
+    color: white;
+    margin-top: 20px;
+}
+
+.media-icon img {
+    width: 50%;
+}
